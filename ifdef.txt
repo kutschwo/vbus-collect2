@@ -1,0 +1,32 @@
+
+
+If you use GCC, you may use option -DWIFISIM as options passed to GCC/G++. Other compilers have similiar options, such as /D in Microsoft Visual Studio:
+
+CXXFLAGS = 
+
+ifeq ($(wifiSim),1)
+CXXFLAGS += -DWIFISIM
+endif
+
+all: test.cpp
+
+test.cpp : test.o
+    ./a.out
+
+test.o :
+    c++ $(CXXFLAGS) test.cpp
+
+Result:
+
+$ make -n wifiSim=1
+c++  -DWIFISIM test.cpp
+./a.out
+$ make -n
+c++  test.cpp
+./a.out
+
+gcc -DDS_E_CONTROLLER 
+gcc -DDS_E_CONTROLLER  tstprintvbus.c printvbus.c -o ~/tstprintvbus
+
+gcc -DDS_E_CONTROLLER  tstprintvbus.c printvbus.c -o ~/tstprintvbus
+

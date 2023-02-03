@@ -1,0 +1,19 @@
+{
+    "device": "/dev/serial/by-id/usb-1fef_2018-if00",
+    "interval": 60,
+    "verbose": false,
+    "database": "/srv/vbus/collector/data.db",
+    "print_stdout": false,
+    "mqtt": {
+        "enabled": true,
+        "base_topic": "haus/solar/sensor",
+        "server": "tcp://master:1883",
+        "client_id": "solar",
+        "user": "solar",
+        "password": "CapriSonne"
+    },
+    "homeassistant": {
+        "enabled": false,
+        "entity_id_base": "sensor.heating"
+    }
+}

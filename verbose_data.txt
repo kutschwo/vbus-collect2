@@ -1,0 +1,36 @@
+
+aa New packet
+00 00 21 77 20 00 05 00 00 00 00 00 00 00 42 
+
+aa New packet
+10 00 46 00 00 00 00 00 7f 01 00 00 00 00 7e 00 
+00 00 00 00 7f 00 00 00 00 00 7f 00 00 00 00 00 
+7f 03 00 00 00 00 7c 00 00 00 00 00 7f 00 00 00 
+00 00 7f 00 00 00 00 00 7f 00 00 00 00 00 7f 01 
+02 5a 26 04 78 66 07 0c 19 01 6c 
+
+aa New packet
+00 00 21 77 20 00 05 00 00 00 00 00 00 00 42 
+
+aa New packet
+10 00 21 77 10 00 01 11 35 2d 00 12 03 00 3d 7a 
+00 07 03 01 7a 38 22 38 22 05 46 38 22 38 22 05 
+46 38 22 38 22 05 46 00 00 00 00 00 7f 01 00 00 
+00 00 7e 00 00 00 00 00 7f 00 00 00 00 00 7f 00 
+00 00 00 00 7f 03 00 00 00 00 7c 00 00 00 00 00 
+7f 00 00 00 00 00 7f 00 00 00 00 00 7f 00 00 00 
+00 00 7f 01 02 5a 26 04 78 66 07 0c 19 01 6c 
+
+Packet size: 112. Source: 0x7721, Destination: 0x0010, Command: 0x0100, #Frames: 17, CRC: 0x35(ok)
+Bytes: 2d001203, Septett: 00, crc: 3d(ok)
+Bytes: 7a000703, Septett: 01, crc: 7a(ok)
+Bytes: 38223822, Septett: 05, crc: 46(ok)
+Bytes: 38223822, Septett: 05, crc: 46(ok)
+Bytes: 38223822, Septett: 05, crc: 46(ok)
+Bytes: 00000000, Septett: 00, crc: 7f(ok)
+Bytes: 01000000, Septett: 00, crc: 7e(ok)
+Bytes: 00000000, Septett: 00, crc: 7f(ok)
+Bytes: 00000000, Septett: 00, crc: 7f(ok)
+Bytes: 00000000, Septett: 00, crc: 7f(ok)
+Bytes: 03000000, Septett: 00, crc: 7c(ok)
+Bytes: 00000000, Septett: 00, crc: 7f(ok)
